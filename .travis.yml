@@ -1,3 +1,11 @@
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.2"
+# command to install dependencies
+install: "pip install -r requirements.txt"
+
 env:
   global:
     secure: QoP3v8mAM58aNXXlZ1HcQODZq/lGbRlsfGPShAigKxQMJCXhGTCngdcu7udXKb5j5BG571cqY61nmKIyvYMCeSKkS3x2NX5iawey8RpRmWBZ8n+or5exmxn2wPsG/63EPr0C2g7b1Oo89Y4dXilHg/ObP9h93SvV9tyVFolb81E8ItzHbAR4YLOH/0rI1VKowLAfZnA9s5QhnPYj3xLhbC/nntUJ/p+JB2KtC4YSISW5G9dE6uqbL9ldI+PLiOCN7IJLovAQnfNryHOm+hKO9Q8bHOYt9UFgkUffjDqjaMCnLXuV3G3DOX/J+LcgSeyaoEmN+wjI+wdrR/UA3eY22RzSlO0gKx8Swdplo2urcwtq4ZJTZ+/MV8elfwmapRv0IcITH86Kn2OCWvbBtrcd37SAgfpIVtZo/cB5gXXfX1Vmk9qgKJtmJ9uYXnbGdMQLlXjYls5naa2LNBjqKSgZB8lbqkZljvb3uvYHO89lOfW4apbAH0Is8cdyxV4JctR7FEB5ORk4EyN148lAnK7Ag98yusyif/WNoH7KiltNje5cV8XOVTu49ijNkD9cqRGDBhg7dgQOObWr2sPT3xfZs3VLKuClVMrz2vHcLYdNNT5Mg+qc5KPo4jeCFXw8X2QuO6FqcP2EKYUfrxIzgK3iiGPGAxPwZWj9kuYnlLjtzh4=

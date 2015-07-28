@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+set -ev
+
 BRANCH=master
 TARGET_REPO=felippemr/felippemr.github.io.git
 PELICAN_OUTPUT_FOLDER=output

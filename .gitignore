@@ -1,0 +1,13 @@
+*.pyc
+*.orig
+*.log
+.idea/*
+.DS_Store
+*~
+.coverage
+coverage.xml
+test-report.xml
+\#*\#
+*.bak
+.wiki
+dbaas/whoosh_index/*
